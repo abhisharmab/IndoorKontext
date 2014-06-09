@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		184F28D318D8F81B005A90BB /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 184F28D218D8F81B005A90BB /* README.md */; };
+		184F28D518DBB3F7005A90BB /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 184F28D418DBB3F7005A90BB /* Settings.bundle */; };
+		1857EBE518E31BF300F14D57 /* Locations.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1857EBE418E31BF300F14D57 /* Locations.plist */; };
+		18B83C7718E3B1A900311C52 /* CMKLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B83C7618E3B1A900311C52 /* CMKLocation.m */; };
+		18B83C7A18E3E8CF00311C52 /* CMKLocationTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B83C7918E3E8CF00311C52 /* CMKLocationTableViewController.m */; };
+		18F4CD7E18DF92D900344254 /* CMKEventTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F4CD7D18DF92D900344254 /* CMKEventTableViewController.m */; };
+		28D68B83177BA8C100461540 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28D68B82177BA8C100461540 /* Main.storyboard */; };
+		28F04CC8177BC6BB00D71779 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28F04CC7177BC6BB00D71779 /* Media.xcassets */; };
+		9B59E5B4174E7BF20083A8A5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B59E5B3174E7BF20083A8A5 /* UIKit.framework */; };
+		9B59E5B6174E7BF20083A8A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B59E5B5174E7BF20083A8A5 /* Foundation.framework */; };
+		9B59E5B8174E7BF20083A8A5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B59E5B7174E7BF20083A8A5 /* CoreGraphics.framework */; };
+		9B59E5BE174E7BF20083A8A5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9B59E5BC174E7BF20083A8A5 /* InfoPlist.strings */; };
+		9B59E5C0174E7BF20083A8A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B59E5BF174E7BF20083A8A5 /* main.m */; };
+		9B59E5C4174E7BF20083A8A5 /* CMKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B59E5C3174E7BF20083A8A5 /* CMKAppDelegate.m */; };
+		9B658B0C174EA66200271210 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B658B0B174EA66200271210 /* CoreLocation.framework */; };
+		9B658B0E174EA66900271210 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B658B0D174EA66900271210 /* CoreBluetooth.framework */; };
+		9BE35B9A17556B7A00E4C77A /* CMKRangingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BE35B9917556B7A00E4C77A /* CMKRangingViewController.m */; };
+		9BE35B9D17556F2D00E4C77A /* CMKDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BE35B9C17556F2D00E4C77A /* CMKDefaults.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		184F28D218D8F81B005A90BB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		184F28D418DBB3F7005A90BB /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		1857EBE418E31BF300F14D57 /* Locations.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Locations.plist; sourceTree = "<group>"; };
+		18B83C7518E3B1A900311C52 /* CMKLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMKLocation.h; sourceTree = "<group>"; };
+		18B83C7618E3B1A900311C52 /* CMKLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMKLocation.m; sourceTree = "<group>"; };
+		18B83C7818E3E8CF00311C52 /* CMKLocationTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMKLocationTableViewController.h; sourceTree = "<group>"; };
+		18B83C7918E3E8CF00311C52 /* CMKLocationTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMKLocationTableViewController.m; sourceTree = "<group>"; };
+		18F4CD7C18DF92D900344254 /* CMKEventTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMKEventTableViewController.h; sourceTree = "<group>"; };
+		18F4CD7D18DF92D900344254 /* CMKEventTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMKEventTableViewController.m; sourceTree = "<group>"; };
+		28D68B82177BA8C100461540 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = en.lproj/Main.storyboard; sourceTree = "<group>"; };
+		28F04CC7177BC6BB00D71779 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		9B59E5B0174E7BF20083A8A5 /* Kontext.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kontext.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B59E5B3174E7BF20083A8A5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9B59E5B5174E7BF20083A8A5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9B59E5B7174E7BF20083A8A5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9B59E5BB174E7BF20083A8A5 /* Kontext-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Kontext-Info.plist"; sourceTree = "<group>"; };
+		9B59E5BD174E7BF20083A8A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9B59E5BF174E7BF20083A8A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9B59E5C1174E7BF20083A8A5 /* Kontext-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Kontext-Prefix.pch"; sourceTree = "<group>"; };
+		9B59E5C2174E7BF20083A8A5 /* CMKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMKAppDelegate.h; sourceTree = "<group>"; };
+		9B59E5C3174E7BF20083A8A5 /* CMKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMKAppDelegate.m; sourceTree = "<group>"; };
+		9B658B0B174EA66200271210 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		9B658B0D174EA66900271210 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		9BE35B9817556B7A00E4C77A /* CMKRangingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMKRangingViewController.h; sourceTree = "<group>"; };
+		9BE35B9917556B7A00E4C77A /* CMKRangingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMKRangingViewController.m; sourceTree = "<group>"; };
+		9BE35B9B17556F2D00E4C77A /* CMKDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMKDefaults.h; sourceTree = "<group>"; };
+		9BE35B9C17556F2D00E4C77A /* CMKDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMKDefaults.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B59E5AD174E7BF20083A8A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B658B0E174EA66900271210 /* CoreBluetooth.framework in Frameworks */,
+				9B658B0C174EA66200271210 /* CoreLocation.framework in Frameworks */,
+				9B59E5B8174E7BF20083A8A5 /* CoreGraphics.framework in Frameworks */,
+				9B59E5B4174E7BF20083A8A5 /* UIKit.framework in Frameworks */,
+				9B59E5B6174E7BF20083A8A5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B59E5A7174E7BF20083A8A5 = {
+			isa = PBXGroup;
+			children = (
+				184F28D418DBB3F7005A90BB /* Settings.bundle */,
+				184F28D218D8F81B005A90BB /* README.md */,
+				9B59E5B9174E7BF20083A8A5 /* Kontext */,
+				9B59E5B2174E7BF20083A8A5 /* Frameworks */,
+				9B59E5B1174E7BF20083A8A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9B59E5B1174E7BF20083A8A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B59E5B0174E7BF20083A8A5 /* Kontext.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B59E5B2174E7BF20083A8A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B658B0D174EA66900271210 /* CoreBluetooth.framework */,
+				9B658B0B174EA66200271210 /* CoreLocation.framework */,
+				9B59E5B3174E7BF20083A8A5 /* UIKit.framework */,
+				9B59E5B5174E7BF20083A8A5 /* Foundation.framework */,
+				9B59E5B7174E7BF20083A8A5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B59E5B9174E7BF20083A8A5 /* Kontext */ = {
+			isa = PBXGroup;
+			children = (
+				9BE35B9817556B7A00E4C77A /* CMKRangingViewController.h */,
+				9BE35B9917556B7A00E4C77A /* CMKRangingViewController.m */,
+				9BE35B9B17556F2D00E4C77A /* CMKDefaults.h */,
+				9BE35B9C17556F2D00E4C77A /* CMKDefaults.m */,
+				18B83C7518E3B1A900311C52 /* CMKLocation.h */,
+				18B83C7618E3B1A900311C52 /* CMKLocation.m */,
+				18B83C7818E3E8CF00311C52 /* CMKLocationTableViewController.h */,
+				18B83C7918E3E8CF00311C52 /* CMKLocationTableViewController.m */,
+				18F4CD7C18DF92D900344254 /* CMKEventTableViewController.h */,
+				18F4CD7D18DF92D900344254 /* CMKEventTableViewController.m */,
+				9B59E5C2174E7BF20083A8A5 /* CMKAppDelegate.h */,
+				9B59E5C3174E7BF20083A8A5 /* CMKAppDelegate.m */,
+				9B59E5BA174E7BF20083A8A5 /* Supporting Files */,
+				1857EBE418E31BF300F14D57 /* Locations.plist */,
+			);
+			path = Kontext;
+			sourceTree = "<group>";
+		};
+		9B59E5BA174E7BF20083A8A5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				28D68B82177BA8C100461540 /* Main.storyboard */,
+				9B59E5BB174E7BF20083A8A5 /* Kontext-Info.plist */,
+				9B59E5BC174E7BF20083A8A5 /* InfoPlist.strings */,
+				9B59E5BF174E7BF20083A8A5 /* main.m */,
+				28F04CC7177BC6BB00D71779 /* Media.xcassets */,
+				9B59E5C1174E7BF20083A8A5 /* Kontext-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B59E5AF174E7BF20083A8A5 /* Kontext */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B59E5CD174E7BF20083A8A5 /* Build configuration list for PBXNativeTarget "Kontext" */;
+			buildPhases = (
+				9B59E5AC174E7BF20083A8A5 /* Sources */,
+				9B59E5AD174E7BF20083A8A5 /* Frameworks */,
+				9B59E5AE174E7BF20083A8A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kontext;
+			productName = Kontext;
+			productReference = 9B59E5B0174E7BF20083A8A5 /* Kontext.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B59E5A8174E7BF20083A8A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CMK;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Carnegie Mellon University";
+				TargetAttributes = {
+					9B59E5AF174E7BF20083A8A5 = {
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 9B59E5AB174E7BF20083A8A5 /* Build configuration list for PBXProject "Kontext" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9B59E5A7174E7BF20083A8A5;
+			productRefGroup = 9B59E5B1174E7BF20083A8A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B59E5AF174E7BF20083A8A5 /* Kontext */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B59E5AE174E7BF20083A8A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1857EBE518E31BF300F14D57 /* Locations.plist in Resources */,
+				28D68B83177BA8C100461540 /* Main.storyboard in Resources */,
+				28F04CC8177BC6BB00D71779 /* Media.xcassets in Resources */,
+				184F28D518DBB3F7005A90BB /* Settings.bundle in Resources */,
+				184F28D318D8F81B005A90BB /* README.md in Resources */,
+				9B59E5BE174E7BF20083A8A5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B59E5AC174E7BF20083A8A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18B83C7718E3B1A900311C52 /* CMKLocation.m in Sources */,
+				9B59E5C0174E7BF20083A8A5 /* main.m in Sources */,
+				18F4CD7E18DF92D900344254 /* CMKEventTableViewController.m in Sources */,
+				18B83C7A18E3E8CF00311C52 /* CMKLocationTableViewController.m in Sources */,
+				9B59E5C4174E7BF20083A8A5 /* CMKAppDelegate.m in Sources */,
+				9BE35B9D17556F2D00E4C77A /* CMKDefaults.m in Sources */,
+				9BE35B9A17556B7A00E4C77A /* CMKRangingViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9B59E5BC174E7BF20083A8A5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B59E5BD174E7BF20083A8A5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B59E5CB174E7BF20083A8A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9B59E5CC174E7BF20083A8A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B59E5CE174E7BF20083A8A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Kontext/Kontext-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Kontext/Kontext-Info.plist";
+				PRODUCT_NAME = Kontext;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9B59E5CF174E7BF20083A8A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Kontext/Kontext-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Kontext/Kontext-Info.plist";
+				PRODUCT_NAME = Kontext;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B59E5AB174E7BF20083A8A5 /* Build configuration list for PBXProject "Kontext" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B59E5CB174E7BF20083A8A5 /* Debug */,
+				9B59E5CC174E7BF20083A8A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B59E5CD174E7BF20083A8A5 /* Build configuration list for PBXNativeTarget "Kontext" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B59E5CE174E7BF20083A8A5 /* Debug */,
+				9B59E5CF174E7BF20083A8A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B59E5A8174E7BF20083A8A5 /* Project object */;
+}

@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>identifier</key>
+		<string>ghc</string>
+		<key>name</key>
+		<string>Gates-Hillman Center</string>
+		<key>beacon</key>
+		<dict>
+			<key>proximityUUID</key>
+			<string>B9407F30-F5F8-466E-AFF9-25556B57FE6D</string>
+			<key>major</key>
+			<integer>18542</integer>
+			<key>minor</key>
+			<integer>29288</integer>
+		</dict>
+		<key>events</key>
+		<dict>
+			<key>Classes</key>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>08-605 Engineering Privacy in Software</string>
+					<key>room</key>
+					<string>GHC 4211</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>15-410 Operating System Design and Implementation</string>
+					<key>room</key>
+					<string>GHC 6002</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>08-734 Usable Privacy and Security</string>
+					<key>room</key>
+					<string>GHC 4102</string>
+				</dict>
+			</array>
+			<key>Seminars</key>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>Current Topics in Privacy</string>
+					<key>room</key>
+					<string>GHC 5222</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>CUPS Lab Seminar</string>
+					<key>room</key>
+					<string>GHC 6002</string>
+				</dict>
+			</array>
+			<key>Career Development</key>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>Palantir talk</string>
+					<key>room</key>
+					<string>GHC 4101</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Apple interviews</string>
+					<key>room</key>
+					<string>GHC 2101</string>
+				</dict>
+			</array>
+			<key>Student Meetings</key>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>ACM</string>
+					<key>room</key>
+					<string>GHC 6002</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>IEEE</string>
+					<key>room</key>
+					<string>GHC 5232</string>
+				</dict>
+			</array>
+			<key>Poster Sessions</key>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>Data Privacy Research</string>
+					<key>room</key>
+					<string>GHC 9003</string>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+	<dict>
+		<key>identifier</key>
+		<string>nsh</string>
+		<key>name</key>
+		<string>Newell Simon Hall</string>
+		<key>beacon</key>
+		<dict>
+			<key>proximityUUID</key>
+			<string>B9407F30-F5F8-466E-AFF9-25556B57FE6D</string>
+			<key>major</key>
+			<integer>925</integer>
+			<key>minor</key>
+			<real>51399</real>
+		</dict>
+		<key>events</key>
+		<dict>
+			<key>Classes</key>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>08-605 Management of Software Development for Technology Executives</string>
+					<key>room</key>
+					<string>NSH 1305</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>05-731 The Data Pipeline</string>
+					<key>room</key>
+					<string>NSH 3005</string>
+				</dict>
+			</array>
+			<key>Career Development</key>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>Amazon talk</string>
+					<key>room</key>
+					<string>NSH 1305</string>
+				</dict>
+			</array>
+			<key>Poster Sessions</key>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>Machine Learning Research</string>
+					<key>room</key>
+					<string>NSH Atrium</string>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+	<dict>
+		<key>identifier</key>
+		<string>uc</string>
+		<key>name</key>
+		<string>University Center</string>
+		<key>beacon</key>
+		<dict>
+			<key>proximityUUID</key>
+			<string>B9407F30-F5F8-466E-AFF9-25556B57FE6D</string>
+			<key>major</key>
+			<integer>34725</integer>
+			<key>minor</key>
+			<integer>35917</integer>
+		</dict>
+		<key>events</key>
+		<dict>
+			<key>Career Development</key>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>Technical Opportunities Career Fair</string>
+					<key>room</key>
+					<string>Rangos Ballroom</string>
+				</dict>
+			</array>
+			<key>Speakers</key>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>Dr. Subra Suresh</string>
+					<key>room</key>
+					<string>McConomy Auditorium</string>
+				</dict>
+			</array>
+			<key>Performing Arts</key>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>Counterpoint</string>
+					<key>room</key>
+					<string>Alumni Lounge</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>The Originals</string>
+					<key>room</key>
+					<string>Andy&apos;s Lounge</string>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+    <!--<dict>
+		<key>identifier</key>
+		<string>fake</string>
+		<key>name</key>
+		<string>Faker Hall</string>
+		<key>beacon</key>
+		<dict>
+			<key>proximityUUID</key>
+			<string>8492E75F-4FD6-469D-B132-043FE94921D8</string>
+		</dict>
+		<key>events</key>
+		<dict>
+			<key>Classes</key>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>99-101 How to Win Friends and Influence People</string>
+					<key>room</key>
+					<string>FH 1936</string>
+				</dict>
+			</array>
+			<key>Career Development</key>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>Networking with Dale Carnegie</string>
+					<key>room</key>
+					<string>FH 1888</string>
+				</dict>
+			</array>
+		</dict>
+	</dict>-->
+</array>
+</plist>
