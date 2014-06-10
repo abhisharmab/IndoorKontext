@@ -2,7 +2,7 @@
 //  CMKLocation.h
 //  Kontext
 //
-//  Created by Adam Durity on 3/26/14.
+//  Created by Abhishek Sharmaon 3/26/14.
 //  Copyright (c) 2014 Carnegie Mellon University. All rights reserved.
 //
 
